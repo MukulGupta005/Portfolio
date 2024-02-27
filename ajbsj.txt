@@ -1,0 +1,27 @@
+Certainly! Let's break down the calculation step by step:
+
+Given information:
+- Risk-Free Rate ($(R_f)$) = 4.0%
+- Expected Return on the Market ($(R_m$)) = 13.0%
+- Expected Return on Security J ($(R_J$)) = 25.3%
+
+The Capital Asset Pricing Model (CAPM) formula is:
+$[ R_J = R_f + $beta $times (R_m - R_f) $]
+
+1. Calculate the difference between the Expected Return on the Market and the Risk-Free Rate:
+$[ R_m - R_f = 13.0$% - 4.0$% = 9.0$% $]
+
+2. Substitute the values into the CAPM formula and solve for beta ($($beta$)):
+$[ 25.3$% = 4.0$% + $beta $times 9.0$% $]
+
+3. Subtract the Risk-Free Rate from the Expected Return on Security J:
+$[ 25.3$% - 4.0$% = 21.3$% $]
+
+4. Divide this result by the difference between the Expected Return on the Market and the Risk-Free Rate to find $($beta$):
+$[ $beta = $frac{21.3$%}{9.0$%} $]
+
+5. Calculate the value:
+$[ $beta = 2.3667 $]
+
+So, the beta for Security J is approximately 2.37.  
+$\beta $
