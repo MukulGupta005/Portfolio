@@ -70,11 +70,7 @@ $$('.buttonA').forEach(button => {
       if (!button.classList.contains('animation')) {
         button.classList.add('loading', 'animation');
 
-  button.addEventListener('click', e => {
-    if (!button.classList.contains('loading')) {
-      if (!button.classList.contains('animation')) {
-        button.classList.add('loading', 'animation');
-
+  
         gsap.to(svgPath, {
           f: 2,
           l: 38,
