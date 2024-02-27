@@ -61,6 +61,15 @@ $$('.buttonA').forEach(button => {
   svgPath.f = 8;
   svgPath.l = 32;
 
+    // Add both 'click' and 'touchstart' event listeners
+  button.addEventListener('click', handleButtonClick);
+  button.addEventListener('touchstart', handleButtonClick);
+
+  function handleButtonClick(e) {
+    if (!button.classList.contains('loading')) {
+      if (!button.classList.contains('animation')) {
+        button.classList.add('loading', 'animation');
+
   button.addEventListener('click', e => {
     if (!button.classList.contains('loading')) {
       if (!button.classList.contains('animation')) {
